@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html ng-app = "libraryApp">
+<head>
+
+	<title>Calgary Public Library</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+		body {
+			background-color: #f0eddf;		
+		}
+
+		img {
+
+			width: 80px;
+			height: 90px;
+
+		}
+	</style>
+
+</head>
+<body ng-controller = "libraryController">
+	
+	<div class = "container">	
+		<div class = "page-header">
+			<h1><kbd>Calgary Public Library</kbd></h1>
+		</div>
+	</div>
+
+	<nav class = "navbar navbar-inverse">
+		<div class = "container-fluid">
+			<div class = "navbar-header">
+				<a ng-if = "successfulLogin" class = "navbar-brand" href = "#/loggedInUser">{{ user.name }}</a>
+			</div>
+			<ul class = "nav navbar-nav">
+				<li><a href = "#/">Home</a></li>
+				<li ng-if = "!successfulLogin"><a href = "#/login">Login</a></li>
+				<li ng-if = "user.position === 2"><a href = "#/loggedInLibrarian">Librarian</a></li>
+			</ul>
+			<ul class = "nav navbar-nav navbar-right">
+				<li><a href = "#/editUser" ng-show = "successfulLogin">Edit
+			<span class = "glyphicon glyphicon-user"></span>
+		</a></li>
+				<li><a href = "#" ng-show = "successfulLogin"ng-click = "logout()">Logout
+			<span class = "glyphicon glyphicon-log-out"></span>
+		</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+
+	<div>
+		<div ng-view></div>
+	</div>
+
+
+	
+
+	<!-- App libs -->
+	<script src = "./app/app.js"></script>
+	<script src = "./app/controllers/controllers.js"></script>
+
+</body>
+</html>

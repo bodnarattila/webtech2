@@ -1,0 +1,18 @@
+[
+	{
+		"id":1,
+		"userID":2,
+		"name":"Bo Botond",
+		"bookID":6666,
+		"author":"John Scalzi",
+		"title":"The Collapsing Empire"
+	},
+	{
+		"id":2,
+		"userID":2,
+		"name":"Bo Botond",
+		"bookID":4444,
+		"author":"J.R.R. Tolkien","title":"The Lord of the Rings"
+	}
+]
+

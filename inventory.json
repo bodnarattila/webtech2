@@ -1,0 +1,67 @@
+[
+{
+	"bookID": 1111,
+	"author": "Dan Brown",
+	"title": "Inferno",
+	"genre": "detective",
+	"quantity": 0,
+	"status": 0
+},
+{
+	"bookID": 2222,
+	"author": "William Shakespeare",
+	"title": "Hamlet",
+	"genre": "tragedy",
+	"quantity": 0,
+	"status": 0
+},
+{
+	"bookID": 3333,
+	"author": "Rick Yancey",
+	"title": "The 5th Wave",
+	"genre": "sci-fi",
+	"quantity": 0,
+	"status": 0
+},
+{
+	"bookID": 4444,
+	"author": "J.R.R. Tolkien",
+	"title": "The Lord of the Rings",
+	"genre": "fantasy",
+	"quantity": 25,
+	"status": 1
+},
+{
+	"bookID": 5555,
+	"author": "J.M. Barrie",
+	"title": "Peter Pan",
+	"genre": "fantasy",
+	"quantity": 10,
+	"status": 1
+},
+{
+	"bookID": 6666,
+	"author": "John Scalzi",
+	"title": "The Collapsing Empire",
+	"genre": "sci-fi",
+	"quantity": 1,
+	"status": 1
+},
+{
+	"bookID": 7777,
+	"author": "Douglas Adams",
+	"title": "The Ultimate Hitchhiker's Guide to the Galaxy",
+	"genre": "sci-fi",
+	"quantity": 100,
+	"status": 1
+},
+{
+	"bookID": 8888,
+	"author": "Bruce Robert Coffin",
+	"title": "Among The Shadows: A Detective Byron Mystery",
+	"genre": "detective",
+	"quantity": 50,
+	"status": 1
+}
+]
+

@@ -1,0 +1,73 @@
+[
+	{
+		"id": 1,
+		"username": "a",
+		"password": "a",
+		"name": "Ala Aladar",
+		"position": 2,
+		"rentals": [],
+		"requests": []
+	},
+	{
+		"id": 2,
+		"username": "q",
+		"password": "q",
+		"name": "Bo Botond",
+		"position": 1,
+		"rentals": [
+			{
+				"bookID": 1111,
+				"author": "Dan Brown",
+				"title": "Inferno",
+				"genre": "detective",
+				"quantity": 0,
+				"status": 0
+			},
+			{
+				"bookID": 2222,
+				"author": "William Shakespeare",
+				"title": "Hamlet",
+				"genre": "tragedy",
+				"quantity": 0,
+				"status": 0
+			}
+		],
+		"requests": [
+			{
+				"bookID": 6666,
+				"author": "John Scalzi",
+				"title": "The Collapsing Empire",
+				"genre": "sci-fi",
+				"quantity": 1,
+				"status": 1
+			},
+			{
+				"bookID": 4444,
+				"author": "J.R.R. Tolkien",
+				"title": "The Lord of the Rings",
+				"genre": "fantasy",
+				"quantity": 25,
+				"status": 1
+			}
+		]
+	},
+	{
+		"id": 3,
+		"username": "felhasz2",
+		"password": "felhasz2",
+		"name": "Cet Cecil",
+		"position": 1,
+		"rentals": [
+			{
+				"bookID": 3333,
+				"author": "Rick Yancey",
+				"title": "The 5th Wave",
+				"genre": "sci-fi",
+				"quantity": 0,
+				"status": 0
+			}
+		],
+		"requests": []
+	}
+]
+
